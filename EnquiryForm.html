@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fashion Enquiry Form</title>
+  <link rel="stylesheet" href="EnquiryForm.css">
+
+</head>
+<body>
+  <h1><u>Fashion Enquiry Form</u></h1>
+
+  <form class="myform" action="FashionEnquirySubmit.html" method="post">
+
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" placeholder="e.g. Priya Sharma" required>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" placeholder="e.g. priya@example.com" required>
+
+    <label for="contact">Contact Number:</label>
+    <input type="text" id="contact" name="contact" placeholder="e.g. +91 9876543210" required>
+
+    <label for="category">Category:</label>
+    <select id="category" name="category" required>
+      <option value="">-- Select --</option>
+      <option value="Women">Women</option>
+      <option value="Men">Men</option>
+      <option value="Kids">Kids</option>
+    </select>
+
+    <label for="product">Product Type:</label>
+    <select id="product" name="product" required>
+      <option value="">-- Select --</option>
+      <option value="Topwear">Topwear (Tops, Shirts, Kurtis)</option>
+      <option value="Bottomwear">Bottomwear (Jeans, Skirts, Trousers)</option>
+      <option value="Footwear">Footwear (Shoes, Sandals)</option>
+      <option value="Accessories">Accessories (Bags, Jewelry)</option>
+    </select>
+
+    <label for="size">Preferred Size:</label>
+    <input type="text" id="size" name="size" placeholder="Enter size in numeric">
+
+    <label for="message">Your Message / Enquiry:</label>
+    <textarea id="message" name="message" placeholder="What you want to enquire..."></textarea>
+
+    <button type="submit">Submit Enquiry</button>
+  </form>
+</body>
+</html>

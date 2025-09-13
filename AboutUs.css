@@ -1,0 +1,134 @@
+body {
+  background-color: #fdfcfb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  margin: 15px 10px 0 10px;
+  padding: 5px 0;
+  width: calc(100% - 20px); 
+  height: auto;
+  color: white;
+  text-align: center;
+  border-bottom: 2px solid black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  letter-spacing: 1px;
+  overflow-x: hidden;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 60px;
+  width: 70px;
+  margin: 10px 0 10px 15px;
+}
+
+.header > nav > a {
+  color: black;
+  font-size: 21px;
+  padding: 20px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+.about-info {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 12px;
+  background-color: blanchedalmond;
+  color: rgb(1, 1, 90);
+}
+
+.about-info h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.about-info p {
+  margin: 20px 40px;
+  font-size: 22px;
+  text-align: justify;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.about-value {
+  margin: 20px 0;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.about-value h2 {
+  margin-left: 40px;
+}
+
+.about-value ul {
+  margin: 10px 0 10px 65px;
+  list-style-type: none;
+}
+.foot {
+    display: flex;
+    justify-content: space-around; /* better alignment */
+    flex-wrap: wrap; /* responsive */
+    padding: 20px;
+    gap: 10px; /* reduced gap */
+}
+.about-contact
+{
+    margin-top: 20px;
+    
+}
+
+.about-contact h2
+{
+    margin-left: 150px;
+}
+
+.about-contact p{
+    margin: 10px;
+    margin-top: 10px;
+}
+.footer-map {
+    text-align: center;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.footer-map h2 {
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 1.5px solid;
+}
+
+iframe {
+    border: 1.5px solid #0c0000;          
+    border-radius: 25px;              
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 152px;
+}
+
+.highlight
+{
+    color: rgb(167, 5, 38);
+    
+}

@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page background */
+body {
+  background: linear-gradient(135deg, #ffffff, #f9f5ec); /* white → cream */
+}
+
+/* Site name style */
+.sitename {
+  font-family: 'Cinzel', serif;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #2C2C2C;
+}
+
+/* Tagline */
+.tagline {
+  font-size: 19.1px;
+  font-weight: bold;
+  color: rgb(217, 157, 4); /* gold */
+  letter-spacing: 2px;
+}
+
+/* Welcome section */
+.sectionclass > .welcome {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 100%;
+  background-color: #FFF8E7;             
+  border: 3px solid black; 
+  margin: 10px 4px 0px 4px;
+  height: 100px;
+}
+
+/* Logo in welcome */
+.sectionclass > .welcome > .logo
+{
+  margin: 15px;
+  height: 70px;
+  width: 80px;
+}
+
+.sectionclass > .welcome > .logo2 
+{
+  margin: 15px;
+  margin-left: 20px;
+  height: 70px;
+  width: 80px;
+}
+
+/* Header */
+.header {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  border-bottom: 2px solid black;
+  margin-top: 10px;
+  padding: 0px 50px 12px 50px;
+    
+
+}
+
+/* Hover effect */
+.header > nav > a:hover {
+  color: rgb(217, 157, 4);        
+  text-decoration: underline 2px gold;  
+  text-underline-offset: 4px; 
+}
+
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Small logo in navbar */
+.logo1 { 
+  height: 26px;
+  width: 26px;
+}
+
+/* Navbar links */
+.header > nav > a {
+  color: #1a1a1a;
+  font-size: 18px;
+  padding-left: 26px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  text-decoration: none;
+  letter-spacing: 2px;
+  
+}
+
+/* Category box */
+.topwearcategory {
+  width: 1430px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid black;
+  font-size: 22px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+  background-color: bisque;
+  border-radius: 4px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Dropdown */
+select {
+  font-size: 18px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+/* Main product grid */
+.maindivtopwear {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  margin-top: 20px;
+  padding: 20px;
+  justify-content: center;
+  margin-left: 40px;
+  margin-right: 40px;  
+}
+
+/* Product card */
+.maindivtopwear > .topwear {
+  box-sizing: border-box;
+  height: 475px;
+  width: 250px;
+  border: 1px solid black;
+  background: white;
+  text-align: center;
+  border-radius: 12px;
+  object-fit: fill;
+}
+
+/* Product image */
+.topwear img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+/* Details/summary */
+details summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Price section */
+.pricesection {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Product text */
+.topwear p {
+  margin: 10px 0px 10px 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Product links */
+.topwear p a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+/* Buttons */
+button {
+  width: 85px;
+  height: 32px;
+  border-radius: 12px;
+  font-size: 16px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+button:active {
+  background-color: #004c82;
+  transform: translateY(0);
+}
+
+/* Old price */
+.mrp {
+  font-size: 12px;
+  text-decoration: line-through;
+}
+
+/* Demo text */
+.demo {
+  font-size: 30px;
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+    margin-top: 50px;
+    height: 160px;
+    padding-top: 10px;
+    padding-left: 130px;
+    background-color: rgb(237, 237, 130);
+    color: #1a1a1a;
+}
+
+/* Footer flex */
+.footer1 {
+  display: flex;
+  font-size: 17px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-top: 15px;
+  color: #1a1a1a;
+}
+
+/* Footer left text */
+.footer-left>p {
+ padding-bottom: 15px;
+ color: #1a1a1a; 
+ font-weight: bold;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Footer map */
+.footer-map {
+  text-align: center;
+  padding-left: 210px;
+  color: #1a1a1a;
+  font-weight: bold;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Footer right text */
+.footer-right>p {
+  padding-bottom: 15px;
+  padding-left: 210px;
+  color: #1a1a1a;
+  font-weight: bold;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Footer links */
+.footer a {
+  text-decoration: none;
+  color: darkblue;
+}
+
+/* Footer map iframe */
+iframe {
+  padding-top: 10px;
+}

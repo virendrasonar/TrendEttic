@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+<style>
+    body
+    {
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+    .demo
+    {
+        background-color: aliceblue;
+        width: 40%;
+        margin: 30px auto;
+        padding: 25px;
+        border-radius: 10px;
+        font-size: 20px;
+
+    }
+    .demo label
+    {
+         
+      margin: 12px 0 6px 20px;
+      color: #2c3e50;
+    }
+    .demo input[type="text"],
+    .demo input[type="email"],
+    .demo select,
+    .demo textarea
+    {
+        width: 90%;
+        margin-left: 20px;
+        padding: 10px;
+        border-radius: 6px;
+        background-color: rgb(253, 241, 222);
+    }
+    .demo textarea{
+        height: 70px;
+        resize: none;
+
+    }
+    .demo button
+</style>
+</head>
+<body>
+    <form class="demo" action="Form.html" method="get">
+    <label for="name">Name: </label><br>
+    <input type="text" id="name" name="name" placeholder="Enter" required><br>
+    
+    <label for="email">Email: </label><br>
+    <input type="email" id="email" name="email" placeholder="@gamil.com" required><br>
+
+    <label for="Category">Category: </label><br>
+    <select id="Category" name="Category" required>
+        <option value="">--Select--</option>
+        <option value="Men">Men</option>
+        <option value="Women">Women</option>
+        <option value="Kids">Kids</option>
+    </select>
+<br>
+    <label for="Gender">Gender: </label><br>
+    <label><input type="radio" name="men" value="men">Men </label>
+    <label><input type="radio" name="women" value="women">Women</label>
+<br>
+
+    <label for:"comment">Comment: </label><br>
+    <textarea id="comment" name=" comment" placeholder="Enquire"></textarea>
+    <button type="submit">Submit</button>
+    </form>
+
+    
+</body>
+</html>
